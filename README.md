@@ -125,8 +125,8 @@ Linear(512  → 5)               ← Q-value for each of 5 actions
 
 ```bash
 # Clone
-git clone https://github.com/your-username/autonomous-car-racing-dqn
-cd autonomous-car-racing-dqn
+git clone https://github.com/your-username/autonomous-car-racing-reinforcement_learning
+cd autonomous-car-racing-reinforcement_learning
 
 # Create virtual environment
 python -m venv venv
@@ -140,18 +140,18 @@ pip install -r requirements.txt
 ### Train
 ```bash
 python train.py                                          # fresh training
-python train.py --resume checkpoints/episode_200.pth    # resume
+python train.py --resume episode_0200.pth    # resume
 python train.py --episodes 500 --lr 0.0001              # custom params
 ```
 
 ### Evaluate
 ```bash
-python evaluate.py --model checkpoints/best_model.pth --episodes 10
+python evaluate.py --model best_model.pth --episodes 10
 ```
 
 ### Record video
 ```bash
-python record_agent.py --model checkpoints/best_model.pth
+python record_agent.py --model best_model.pth
 ```
 
 ### Google Colab
