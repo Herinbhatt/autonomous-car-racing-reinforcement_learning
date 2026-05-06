@@ -19,13 +19,9 @@ The agent receives raw **96×96 pixel frames** from OpenAI Gymnasium's `CarRacin
 ---
 
 ## Demo
-
-> Add your training video here after running `python record_agent.py`
-> Upload to `docs/demo.mp4` and link below:
-
 ```
-docs/demo.mp4       ← replace with GIF or video embed after training
-docs/reward_curve.png
+videos/dqn_carracing-episode-0.mp4      ← replace with GIF or video embed after training
+plots/reward_curve.png
 ```
 
 ---
@@ -68,9 +64,12 @@ autonomous-car-racing-dqn/
 ├── record_agent.py        Record MP4 video of trained agent driving
 ├── DQN_CarRacing.ipynb    Google Colab notebook (full training in one file)
 │
-├── docs/
+├── plot/
 │   ├── reward_curve.png   Training reward history (add after training)
-│   └── demo.mp4           Video of trained agent (add after training)
+│ 
+├── videos/
+│   ├── dqn_carracing-episode-0.mp4   Video of trained agent (add after training)
+│           
 │
 ├── requirements.txt
 └── README.md
