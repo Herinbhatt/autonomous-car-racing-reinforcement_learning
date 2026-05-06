@@ -201,7 +201,7 @@ Expected training time: ~3–5 hours on Google Colab T4 GPU.
 
 | Project | Paradigm | Algorithm | Language |
 |---|---|---|---|
-| [Crop & Weed Detection](https://github.com/your-username/crop-weed-detection) | Supervised learning | YOLOv8 + Transfer Learning | Python |
+| [Crop & Weed Detection](https://github.com/your-username/crop-weed-detection-yolov8) | Supervised learning | YOLOv8 + Transfer Learning | Python |
 | **Autonomous Car Racing (this)** | **Deep RL** | **DQN + CNN** | **Python** |
 ---
 
@@ -218,5 +218,3 @@ Expected training time: ~3–5 hours on Google Colab T4 GPU.
 MIT License — free to use, modify, and distribute with attribution.
 
 ---
-
-*MSc AI/ML Portfolio Project — Herin Bhatt, 2025*
