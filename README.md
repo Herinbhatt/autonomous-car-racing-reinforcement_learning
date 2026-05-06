@@ -176,12 +176,12 @@ Expected training time: ~3–5 hours on Google Colab T4 GPU.
 
 | Metric | Value |
 |---|---|
-| Best episode reward | *Add after training* |
-| Average reward (last 100 episodes) | *Add after training* |
-| Episodes to first complete lap | *Add after training* |
-| Training time | *Add after training* |
+| Best episode reward | 910 - 920 |
+| Average reward (last 100 episodes) | 700 |
+| Episodes to first complete lap | 135 |
+| Training Steps | 100000 |
 
-> Reward curve: `docs/reward_curve.png`
+> Reward curve: `plots/reward_curve.png`
 
 ---
 
@@ -202,11 +202,7 @@ Expected training time: ~3–5 hours on Google Colab T4 GPU.
 | Project | Paradigm | Algorithm | Language |
 |---|---|---|---|
 | [Crop & Weed Detection](https://github.com/your-username/crop-weed-detection) | Supervised learning | YOLOv8 + Transfer Learning | Python |
-| [Robot Navigation (JS)](https://github.com/your-username/adaptive-robot-navigation-rl) | Tabular RL | Q-learning (Bellman table) | JavaScript |
 | **Autonomous Car Racing (this)** | **Deep RL** | **DQN + CNN** | **Python** |
-
-The progression is intentional — from labeled data → table-based RL → neural network RL. Each project builds on concepts from the previous one.
-
 ---
 
 ## References
